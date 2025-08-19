@@ -7,7 +7,7 @@ use_frameworks!
 platform :ios, '10.0'
 
 target 'YSTools_Example' do
-  pod 'YSTools', :path => '../'
+  pod 'YSTools'#, :path => '../'
 
   target 'YSTools_Tests' do
     inherit! :search_paths

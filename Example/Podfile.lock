@@ -18,20 +18,18 @@ PODS:
     - AFNetworking (~> 4.0)
 
 DEPENDENCIES:
-  - YSTools (from `../`)
+  - YSTools
 
 SPEC REPOS:
   https://github.com/CocoaPods/Specs.git:
     - AFNetworking
-
-EXTERNAL SOURCES:
-  YSTools:
-    :path: "../"
+  https://github.com/jiangyanshuang/YSPodSpec.git:
+    - YSTools
 
 SPEC CHECKSUMS:
   AFNetworking: 3bd23d814e976cd148d7d44c3ab78017b744cd58
-  YSTools: 17dff46ada5641e71a7aa173f0d30a2177750269
+  YSTools: 46ff365443b188cb54809649269a377036109f4a
 
-PODFILE CHECKSUM: 3f84d9ab2089ba58b1e5cdc71d19a5699d09c6b0
+PODFILE CHECKSUM: 67773ee7668dc0945bdf3475da46140b32a45a94
 
 COCOAPODS: 1.16.2
